@@ -1,0 +1,38 @@
+cxx_binary(
+  name = 'args', 
+  srcs = [
+    'args.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:boost-process',
+  ],
+)
+
+cxx_binary(
+  name = 'async-io', 
+  srcs = [
+    'async_io.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:boost-process',
+  ],
+)
+
+cxx_binary(
+  name = 'posix', 
+  srcs = [
+    'posix.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:boost-process',
+  ],
+)

@@ -32,3 +32,8 @@
 /notes_p.txt
 .settings
 
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
