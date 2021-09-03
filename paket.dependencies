@@ -1,0 +1,14 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+generate_load_scripts: true
+
+framework: net5.0, netstandard2.1
+
+nuget FSharp.Core
+nuget coverlet.collector
+nuget Microsoft.NET.Test.Sdk
+nuget xunit
+nuget xunit.runner.console
+nuget xunit.runner.visualstudio
+nuget FsUnit.xUnit
